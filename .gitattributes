@@ -1,0 +1,14 @@
+# 统一换行符处理，避免 Windows/Linux 协作时 HDL 源码被整体改写
+* text=auto
+
+# 二进制文件：禁止换行符转换与文本 diff
+*.bit   binary
+*.BMP   binary
+*.bmp   binary
+*.PCM   binary
+*.db    binary
+*.docx  binary
+*.png   binary
+*.jpg   binary
+*.rar   binary
+*.zip   binary
