@@ -1,0 +1,7 @@
+# vsim -lib work_r2 -c -gW=64 -gH=16 -gCASE=2 tb -do "run -all; quit" 
+# Start time: 20:43:54 on Oct 26,2026
+# ** Error: (vsim-3170) Could not find 'D:/FPGA/source/exam1/HX4S20_Contest_202606/7_lab_ex_2026_nosoft/lab_ex4_tf/src/user_source/hdl_source/SD/work_r2.tb'.
+# 
+# Error loading design
+# End time: 20:43:55 on Oct 26,2026, Elapsed time: 0:00:01
+# Errors: 1, Warnings: 0

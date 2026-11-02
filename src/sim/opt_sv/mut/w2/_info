@@ -1,0 +1,217 @@
+m255
+K4
+z2
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+Z0 dD:/FPGA/source/exam1/HX4S20_Contest_202606/7_lab_ex_2026_nosoft/lab_ex4_tf/src/sim/opt_sv
+vbmp_scaler
+Z1 DXx6 sv_std 3 std 0 22 <EOTafDcUY:cQeO^ICn]m3
+Z2 !s110 1793527413
+!i10b 1
+!s100 7>ilnmUnIG2aRC7>z>F`g1
+I1Ae_Q:INQjFac[9>Q:;fL2
+Z3 V`JN@9S9cnhjKRR_L]QIcM3
+!s105 bmp_scaler_v_unit
+S1
+R0
+w1793191537
+8../../user_source/hdl_source/SD/bmp_scaler.v
+F../../user_source/hdl_source/SD/bmp_scaler.v
+Z4 L0 22
+Z5 OV;L;10.3c;59
+r1
+!s85 0
+31
+Z6 !s108 1793527413.207000
+Z7 !s107 tb_sv.sv|../../user_source/hdl_source/SD/config_parser.v|../../user_source/hdl_source/SD/sd_sector_adapter.v|../../user_source/hdl_source/SD/fat32_file_streamer.v|../../user_source/hdl_source/SD/fat32_volume_scanner.v|../../user_source/hdl_source/SD/bmp_scaler.v|mut/saver_m2.v|sd_card_bmp_new_sim.v|
+Z8 !s90 -work|mut/w2|-sv|sd_card_bmp_new_sim.v|mut/saver_m2.v|../../user_source/hdl_source/SD/bmp_scaler.v|../../user_source/hdl_source/SD/fat32_volume_scanner.v|../../user_source/hdl_source/SD/fat32_file_streamer.v|../../user_source/hdl_source/SD/sd_sector_adapter.v|../../user_source/hdl_source/SD/config_parser.v|tb_sv.sv|
+!i113 1
+Z9 o-work mut/w2 -sv
+vcfg_saver
+R1
+R2
+!i10b 1
+!s100 c>nS5O`eOiL`d7CbAMKlV2
+IYNZSDW=G3fTSWIdbd9MOT2
+R3
+!s105 saver_m2_v_unit
+S1
+R0
+w1793527308
+8mut/saver_m2.v
+Fmut/saver_m2.v
+R4
+R5
+r1
+!s85 0
+31
+R6
+R7
+R8
+!i113 1
+R9
+vconfig_parser
+R1
+R2
+!i10b 1
+!s100 Wg@k?jPMkmbaWUQnKH5n92
+IDlzNHi6UnnB2RlBVh2o<Z2
+R3
+!s105 config_parser_v_unit
+S1
+R0
+w1793357544
+8../../user_source/hdl_source/SD/config_parser.v
+F../../user_source/hdl_source/SD/config_parser.v
+L0 13
+R5
+r1
+!s85 0
+31
+R6
+R7
+R8
+!i113 1
+R9
+vfat32_file_streamer
+R1
+R2
+!i10b 1
+!s100 XCE@N`1ZSi6KPe8zz[Rg@2
+I3X17AT46^chMb^Ch62<z53
+R3
+!s105 fat32_file_streamer_v_unit
+S1
+R0
+w1793022969
+8../../user_source/hdl_source/SD/fat32_file_streamer.v
+F../../user_source/hdl_source/SD/fat32_file_streamer.v
+L0 3
+R5
+r1
+!s85 0
+31
+R6
+R7
+R8
+!i113 1
+R9
+vfat32_volume_scanner
+R1
+R2
+!i10b 1
+!s100 K77SlV2i:C`Q`HgSF1a9i3
+I]?MkRU9[6hA`H4TJX982E3
+R3
+!s105 fat32_volume_scanner_v_unit
+S1
+R0
+w1793526679
+8../../user_source/hdl_source/SD/fat32_volume_scanner.v
+F../../user_source/hdl_source/SD/fat32_volume_scanner.v
+L0 3
+R5
+r1
+!s85 0
+31
+R6
+R7
+R8
+!i113 1
+R9
+vsd_card_bmp
+R1
+R2
+!i10b 1
+!s100 R7QeN[BYIa9Z39g;2NAAW2
+I=mVgIQO7<JEdkTVz<K;mm0
+R3
+!s105 sd_card_bmp_new_sim_v_unit
+S1
+R0
+w1793526810
+8sd_card_bmp_new_sim.v
+Fsd_card_bmp_new_sim.v
+L0 5
+R5
+r1
+!s85 0
+31
+R6
+R7
+R8
+!i113 1
+R9
+vsd_card_top
+R1
+R2
+!i10b 1
+!s100 1<jSeS3<>UY6LX?8`<nOk0
+IemFOkO;HXFWIl<MSzkb=M0
+R3
+Z10 !s105 tb_sv_sv_unit
+S1
+R0
+Z11 w1793527195
+Z12 8tb_sv.sv
+Z13 Ftb_sv.sv
+L0 382
+R5
+r1
+!s85 0
+31
+R6
+R7
+R8
+!i113 1
+R9
+vsd_sector_adapter
+R1
+R2
+!i10b 1
+!s100 bRYQUa2NU>c>ZjCfQ[RVQ3
+IPFM1d;jQ=D`E;HZZ]kPXA3
+R3
+!s105 sd_sector_adapter_v_unit
+S1
+R0
+w1790752567
+8../../user_source/hdl_source/SD/sd_sector_adapter.v
+F../../user_source/hdl_source/SD/sd_sector_adapter.v
+L0 3
+R5
+r1
+!s85 0
+31
+R6
+R7
+R8
+!i113 1
+R9
+vtb
+R1
+R2
+!i10b 1
+!s100 YfU9UGSo5;S;Zkf6m9SR;1
+I0TgjbTRI^4W8XQb@z2@9b0
+R3
+R10
+S1
+R0
+R11
+R12
+R13
+L0 20
+R5
+r1
+!s85 0
+31
+R6
+R7
+R8
+!i113 1
+R9

@@ -1,0 +1,57 @@
+# ================================================================
+# 安路 (Anlogic) TD 工程 .gitignore
+# 原则：仓库只放「人写的」内容（HDL 源码、约束、工程文件、文档、脚本）
+#       编译产物 / 仿真工作区 / IDE 缓存 / 大体积媒体一律不入库
+# ================================================================
+
+# ---------- 1. TD 编译产物（可一键重新综合布线得到）----------
+src/td_project/**/*_Runs/
+src/td_project/log/
+src/td_project/out/
+src/td_project/chip_debugger/
+src/td_project/.recent_user_depot.ini
+
+# ---------- 2. 仿真工作区（Modelsim/TD 波形与库）----------
+src/sim/**/work*/
+src/sim/**/transcript
+*.qpg
+*.qtl
+*.qdb
+*.dmp
+*.wlf
+*.vstf
+
+# ---------- 3. IDE 缓存 ----------
+**/.dide/
+.recent_user_depot.ini
+
+# ---------- 4. 大体积媒体（用 doc/convert 下的脚本重新生成）----------
+# 原始 PCM 音频：95 MB，由 wav_to_pcm.py 从 wav 生成
+doc/*.PCM
+# 转换脚本的中间输出 BMP：21 MB
+doc/convert/output_bmp/
+# 确需入库时改用 Git LFS（见文末说明）
+
+# ---------- 5. 打包 / 备份文件 ----------
+*.rar
+*.zip
+*.7z
+*.bak_*
+*.al.bak_*
+
+# ---------- 6. 日志 ----------
+*.log
+*.logw
+
+# ---------- 7. 操作系统 ----------
+Thumbs.db
+desktop.ini
+.DS_Store
+
+# ================================================================
+# 若确实要把大文件（>25 MB，例如 PCM/BMP/bit）纳入仓库：
+#   git lfs install
+#   git lfs track "*.PCM"
+#   git add .gitattributes
+# 免费额度 1 GB 存储 + 1 GB/月 流量。
+# ================================================================

@@ -1,0 +1,3 @@
+run 3ms
+echo "ad_o=[examine ad_o] ad_n=[examine ad_n] pix_n=[examine hn.g_dut.u.u_bmp_scaler.seq_run] si=[examine -radix unsigned hn.g_dut.u.u_bmp_scaler.si] sj=[examine -radix unsigned hn.g_dut.u.u_bmp_scaler.sj] fcnt=[examine -radix unsigned hn.g_dut.u.u_bmp_scaler.f_cnt] cst=[examine hn.g_dut.u.u_bmp_scaler.cst] pst=[examine hn.g_dut.u.u_bmp_scaler.pst] arm=[examine hn.g_dut.u.u_bmp_scaler.seq_arm] ovr=[examine hn.g_dut.u.u_bmp_scaler.overrun] bs=[examine hn.g_dut.u.byte_state] st=[examine hn.g_dut.u.u_streamer.state] hold=[examine hn.g_dut.u.u_streamer.hold] li=[examine hn.li] lstate=[examine hn.g_dut.u.load_ctrl_state]"
+quit -f
